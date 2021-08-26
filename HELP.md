@@ -1,10 +1,19 @@
 # Getting Started
 
-### Reference Documentation
+### Command line Currency Converter
 
-For further reference, please consider the following sections:
+It converts source currency to target currency as GBP as base. Exchange rates are loaded using a flat file in resources folder
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.5.4/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.5.4/maven-plugin/reference/html/#build-image)
+Inputs:
 
+• A source currency amount in the format x.yy
+
+• A source ISO 4217 currency code
+
+• A target ISO 4217 currency code
+
+Output:
+
+• Source currency amount
+
+• Target currency amount
